@@ -1,2 +1,3 @@
-#html&css beginning
-starting with kakaoclone
+# HTML&CSS Beginning
+
+Starting with kakaoclone
