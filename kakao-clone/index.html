@@ -29,14 +29,15 @@
         해주십시오.
       </p>
     </header class="welcome-header">
-    <form id="login-form">
-        <input type="id" placeholder="계정"/>
-         <!-- <span> Email 혹은 전화번호 </span>-->
-        <input type="password" placeholder="비밀번호"/>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="계정"/>
+        <input name="password" required type="password" placeholder="비밀번호"/>
         <input type="submit" value="로그인"/>
         <a href="#">계정 혹은 비밀번호를 잊으셨나요?</a>
     </form>
-    
+    <div id="no-mobile">
+      <span>모바일에 최적화된 페이지 입니다.</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
